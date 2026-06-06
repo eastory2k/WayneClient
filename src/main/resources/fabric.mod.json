@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "wayne",
+  "version": "1.0.0",
+  "name": "Wayne DLC",
+  "description": "Wayne Client by Swill Way",
+  "authors": ["Swill Way"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.swillway.wayne.WayneClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21.11"
+  }
+}
